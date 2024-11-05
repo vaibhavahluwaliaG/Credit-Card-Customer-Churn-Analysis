@@ -21,7 +21,7 @@ This project aimed to identify key factors influencing customer churn among cred
 • Age Group: The average customer age among churned individuals is 46, with the most significant churn occurring in the 41-50 age group.
 • Gender Influence: Females display a consistently higher churn rate across all age groups, with 930 out of 1627 churned customers being female, compared to 697 males.
 
-3. Financial Characteristics:
+2. Financial Characteristics:
 Credit Limit:
 • Churn appears to be heavily skewed toward customers with lower credit limits.
 • Range: Credit limits span from a minimum of 1,439 to a maximum of 34,516, with an average of approximately 8,000.
@@ -33,8 +33,8 @@ Income Category:
 • Breakdown by gender: 764 females compared to 35 males in this income category have churned.
 • Following this, the "Average Income" category holds the next highest churn rate, with 271 attrited customers.
   
-4. Churn Rate Overview:
-5. • The overall churn rate is relatively low at 16% of the total customer base (1,627 out of 10,127 customers).
+3. Churn Rate Overview:
+• The overall churn rate is relatively low at 16% of the total customer base (1,627 out of 10,127 customers).
 
 # Conclusion:
 The analysis highlights several important drivers of churn:
