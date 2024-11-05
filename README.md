@@ -1,7 +1,7 @@
 # Credit-Card-Customer-Churn-Analysis
 This project provides a comprehensive SQL-based analysis of credit card customer churn, covering data cleaning and exploratory analysis to understand factors that might influence customer attrition. The objective is to analyze customer demographics and financial metrics to identify high-risk segments.
 
-Project Overview
+# Project Overview
 Data Cleaning:
 Initial dataset examination involved handling missing values, standardizing column names, and removing redundant columns.
 Null values in categorical fields, such as Income_Category, were addressed using the mode, while other inconsistencies were resolved to ensure clean, reliable data.
@@ -18,21 +18,23 @@ This project aimed to identify key factors influencing customer churn among cred
 ## Key Findings and Insights:
 
 1. Customer Demographics:
-  • Age Group: The average customer age among churned individuals is 46, with the most significant churn occurring in the 41-50 age group.
-  • Gender Influence: Females display a consistently higher churn rate across all age groups, with 930 out of 1627 churned customers being female, compared to 697 males.
+• Age Group: The average customer age among churned individuals is 46, with the most significant churn occurring in the 41-50 age group.
+• Gender Influence: Females display a consistently higher churn rate across all age groups, with 930 out of 1627 churned customers being female, compared to 697 males.
 
-2. Financial Characteristics:
-• Credit Limit:
-  • Churn appears to be heavily skewed toward customers with lower credit limits.
-  • Range: Credit limits span from a minimum of 1,439 to a maximum of 34,516, with an average of approximately 8,000.
-  • Attrition by Credit Limit: Of the 1,627 churned customers, 1155 have credit limits below the 8k average.
-  • Gender breakdown: Among customers with credit limits under 8k, 820 are female, showing a higher propensity for churn in this demographic.
-• Income Category:
-  • The "Less than $40K" income category has the highest churn rate, totalling 799 churned customers.
-  • Breakdown by gender: 764 females compared to 35 males in this income category have churned.
-  • Following this, the "Average Income" category holds the next highest churn rate, with 271 attrited customers.
-3. Churn Rate Overview:
-  • The overall churn rate is relatively low at 16% of the total customer base (1,627 out of 10,127 customers).
+3. Financial Characteristics:
+Credit Limit:
+• Churn appears to be heavily skewed toward customers with lower credit limits.
+• Range: Credit limits span from a minimum of 1,439 to a maximum of 34,516, with an average of approximately 8,000.
+• Attrition by Credit Limit: Of the 1,627 churned customers, 1155 have credit limits below the 8k average.
+• Gender breakdown: Among customers with credit limits under 8k, 820 are female, showing a higher propensity for churn in this demographic.
+
+Income Category:
+• The "Less than $40K" income category has the highest churn rate, totalling 799 churned customers.
+• Breakdown by gender: 764 females compared to 35 males in this income category have churned.
+• Following this, the "Average Income" category holds the next highest churn rate, with 271 attrited customers.
+  
+4. Churn Rate Overview:
+5. • The overall churn rate is relatively low at 16% of the total customer base (1,627 out of 10,127 customers).
 
 # Conclusion:
 The analysis highlights several important drivers of churn:
